@@ -15,6 +15,8 @@
 		0428D5131F8BB6FF005B51D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428D5121F8BB6FF005B51D7 /* main.m */; };
 		0428D51D1F8BB6FF005B51D7 /* TableViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428D51C1F8BB6FF005B51D7 /* TableViewSampleTests.m */; };
 		0428D5281F8BB6FF005B51D7 /* TableViewSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428D5271F8BB6FF005B51D7 /* TableViewSampleUITests.m */; };
+		0428D5361F8BB834005B51D7 /* carSrc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0428D5351F8BB834005B51D7 /* carSrc.plist */; };
+		0428D5391F8BBA34005B51D7 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428D5381F8BBA34005B51D7 /* Group.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0428D5231F8BB6FF005B51D7 /* TableViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0428D5271F8BB6FF005B51D7 /* TableViewSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewSampleUITests.m; sourceTree = "<group>"; };
 		0428D5291F8BB6FF005B51D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0428D5351F8BB834005B51D7 /* carSrc.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = carSrc.plist; sourceTree = "<group>"; };
+		0428D5371F8BBA34005B51D7 /* Group.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		0428D5381F8BBA34005B51D7 /* Group.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +110,14 @@
 				0428D5041F8BB6FF005B51D7 /* AppDelegate.m */,
 				0428D5061F8BB6FF005B51D7 /* ViewController.h */,
 				0428D5071F8BB6FF005B51D7 /* ViewController.m */,
+				0428D5351F8BB834005B51D7 /* carSrc.plist */,
 				0428D5091F8BB6FF005B51D7 /* Main.storyboard */,
 				0428D50C1F8BB6FF005B51D7 /* Assets.xcassets */,
 				0428D50E1F8BB6FF005B51D7 /* LaunchScreen.storyboard */,
 				0428D5111F8BB6FF005B51D7 /* Info.plist */,
 				0428D5121F8BB6FF005B51D7 /* main.m */,
+				0428D5371F8BBA34005B51D7 /* Group.h */,
+				0428D5381F8BBA34005B51D7 /* Group.m */,
 			);
 			path = TableViewSample;
 			sourceTree = "<group>";
@@ -238,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0428D5361F8BB834005B51D7 /* carSrc.plist in Resources */,
 				0428D5101F8BB6FF005B51D7 /* LaunchScreen.storyboard in Resources */,
 				0428D50D1F8BB6FF005B51D7 /* Assets.xcassets in Resources */,
 				0428D50B1F8BB6FF005B51D7 /* Main.storyboard in Resources */,
@@ -268,6 +277,7 @@
 				0428D5081F8BB6FF005B51D7 /* ViewController.m in Sources */,
 				0428D5131F8BB6FF005B51D7 /* main.m in Sources */,
 				0428D5051F8BB6FF005B51D7 /* AppDelegate.m in Sources */,
+				0428D5391F8BBA34005B51D7 /* Group.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
